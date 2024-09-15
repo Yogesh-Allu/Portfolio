@@ -3,7 +3,14 @@ body {
     margin: 0;
     cursor: pointer;
     position: relative;
-    overflow-x: hidden;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+
+*{
+  margin-right: 0;
+  padding: 0;
 }
 
 
@@ -71,7 +78,18 @@ body {
   padding-top: 15rem;
 }
 
-
+.download {
+  background-color: #ff8343;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Roboto;
+  height: 35px;
+  margin: 10px;
+  padding: 5px;
+  width: 120px;
+}
 
 
 .nav-bg {
@@ -97,8 +115,8 @@ body {
 .abot-me-para {
     color: black;
     font-size: 18px;
-    min-width: 200px;
-    max-width: 700px;
+    min-width: 100px;
+    max-width: 600px;
     text-align: left;
     margin-bottom: 2rem;
 }
@@ -106,13 +124,12 @@ body {
 .about-me-image-container{
     max-width: 500px;
     min-width: 100px;
-    margin-left: 80px;
     flex-shrink:1;
 }
 
 .about-me-image-container1{
   max-width: 600px;
-  min-width: 200px;
+  min-width: 100px;
   margin-left: 80px;
   flex-shrink:1;
 }
@@ -166,6 +183,19 @@ body {
   flex-direction: column;
   align-items: center;
  }
+ .download {
+  background-color: #ff8343;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Roboto;
+  height: 35px;
+  margin: 10px;
+  padding: 5px;
+  width: 120px;
+}
+
 }
 
 @media (min-width:769px) and (max-width:990px) {
@@ -263,8 +293,8 @@ body {
 .what-i-can-do-para1{
     color: #37353d;
     font-size: 20px;
-    max-width: 700px;
-    min-width: 200px;
+    max-width: 600px;
+    min-width: 100px;
     font-family: serif;
 }
 
@@ -522,6 +552,7 @@ footer button {
   font-family: Roboto;
   height: 40px;
   width: 100%;
+  margin-right: 0;
 }
 
 .contact-me-para{
@@ -529,3 +560,7 @@ footer button {
   font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
+/* extra code*/
