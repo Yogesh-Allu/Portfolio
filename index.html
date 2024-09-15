@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light nav-bg">
+                <a class="navbar-brand" href="#">
+                    <h1 class="nav-heading">AY</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a id="navbar1" class="nav-link active highlight-on-hover" href="#home-container" style="color:#1382eb;font-weight: 600;">
+                            Home <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link highlight-on-hover" style="color:#1382eb; font-weight: 600;" id="navbar2" href="#aboutMeContainer">About</a>
+                        <a class="nav-link highlight-on-hover" style="color:#1382eb; font-weight: 600;" id="navbar3" href="#what-i-do-container">Skills</a>
+                        <a class="nav-link highlight-on-hover" style="color:#1382eb; font-weight: 600;" id="navbar4" href="#projectSection">Projects</a>
+                        <a class="nav-link highlight-on-hover" style="color:#1382eb;font-weight: 600;" id="navbar5" href="#contactMe">Contact Me</a>
+                    </div>
+                </div>
+            </nav>
+            <div id="home-container" class="col-12 main-background">
+                <div class="d-md-flex flex-row">
+                    <div class="image-container-main">
+                        <img src="main.jpg" class="main-image"/>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center main-container">
+                        <h1 class="main-head"><span class="hellostyle"> Hello </span>I'm Allu Yogesh</h1>
+                        <h2 class="main-second-head">----- Mern stack Developer</h2>
+                        <div>
+                            <a class="fa-brands fa-github" style="font-size: 32px; color: black; margin: 10px;" href="https://github.com/Yogesh-Allu" target="_blank"></a>
+                            <a class="fa-brands fa-linkedin" style="font-size: 32px; color: #0077B5; margin: 10px;" href="https://www.linkedin.com/in/yogesh-allu/" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="aboutMeContainer" class="col-12 about-me-background-image">
+                <div class="d-md-flex flex-row">
+                    <div class="about-me-container d-none d-md-block">
+                        <h1 class="about-me-head">
+                            About Me
+                        </h1>
+                        <p class="abot-me-para">
+                            &ensp;  &emsp;MCA graduate with a strong understanding of web development and programming. I have hands-on experience with JavaScript, Python, SQLite, HTML, CSS, Node.js, and React.js. I enjoy building efficient web applications and solving technical problems. I’m eager to continue learning and apply my skills in a professional setting to contribute to exciting projects.
+                        </p>
+                        <a class="btn btn-primary" type="button" href="Resume.pdf" target="_blank" download="resume/pdf">
+                            Download CV
+                        </a>
+                    </div>
+                    <div class="about-me-image-container m-3">
+                        <img src="https://img.freepik.com/free-vector/male-programmer-working-computer-office-wall-with-hanging-reminder-stickers-developer-creating-new-software-interface-coding-programming-system-administrator-designer-character_575670-1159.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726099200&semt=ais_hybrid" class="about-me-image" />
+                    </div>
+                    <div class="about-me-container d-md-none">
+                        <h1 class="about-me-head">
+                            About Me
+                        </h1>
+                        <p class="abot-me-para">
+                            MCA graduate with a strong understanding of web development and programming. I have hands-on experience with JavaScript, Python, SQLite, HTML, CSS, Node.js, and React.js. I enjoy building efficient web applications and solving technical problems. I’m eager to continue learning and apply my skills in a professional setting to contribute to exciting projects.
+                        </p>
+                        <a class="btn btn-primary button-resume" type="button" href="Resume.pdf" target="_blank" download="resume/pdf"></a>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="what-i-do-container" class="col-12 what-i-can-do-background">
+                <div class="d-md-flex flex-row">
+                    <div class="about-me-image-container1 m-3">
+                        <img src="developer.png" class="what-i-can-do-image"/>
+                    </div>
+                    <div>
+                        <h1 class="what-i-can-do-head">
+                            What I can do
+                        </h1>
+                        <p class="what-i-can-do-para1">
+                            Passionate Full Stack Developer eager to explore and master diverse technology stacks.
+                        </p>
+                        <div class="d-flex flex-row flex-wrap justify-content-center what-i-can-do-para1">
+                            <div style="height: 100px; width: 100px;" class="text-center">
+                                <i class="fa-brands fa-html5" style="font-size:48px;color:#ed7947;margin:5px"></i>
+                                <p class="what-i-can-do-para">HTML5</p>
+                            </div>
+                            <div style="height: 100px; width: 100px;" class="text-center">
+                                <i class="fa-brands fa-css3-alt" style="font-size:48px;color:#2965f1;margin:5px"></i>
+                                <p class="what-i-can-do-para">CSS</p>
+                            </div>
+                            <div style="height: 100px; width: 100px;" class="text-center">
+                                <i class="fa-brands fa-js" style="font-size:48px;color:#f0db4f;margin:5px"></i>
+                                <p class="what-i-can-do-para">JavaScript</p>
+                            </div>
+                            <div style="height: 100px; width: 100px;" class="text-center">
+                                <i class="fa-brands fa-bootstrap" style="font-size:48px;color:#5d38f2;margin:5px"></i>
+                                <p class="what-i-can-do-para">Bootstrap</p>
+                            </div>
+                            <div style="height: 100px; width: 100px;" class="text-center">
+                                <i class="fa-brands fa-react" style="font-size:48px;color:#61dafb;margin:5px"></i>
+                                <p class="what-i-can-do-para">React.js</p>
+                            </div>
+                            <div style="height: 100px; width: 100px;" class="text-center">
+                                <i class="fa-brands fa-node" style="font-size:48px;color:#1AB11A;margin:5px"></i>
+                                <p class="what-i-can-do-para">node.js</p>
+                            </div>
+                            <div style="height: 100px; width: 100px;" class="text-center">
+                                <i class="fa-solid fa-database" style="font-size:48px;color:#8A8484;margin:5px"></i>
+                                <p class="what-i-can-do-para">SQLite</p>
+                            </div>
+                            <div style="height: 100px; width: 100px;" class="text-center">
+                                <i class="fa-brands fa-python" style="font-size:48px;color:#39392D;margin:5px"></i>
+                                <p class="what-i-can-do-para">Python</p>
+                            </div>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="what-i-can-do-para1">
+                                    Develop responsive, user-centric web applications using HTML5, CSS, Bootstrap, and JavaScript.
+                                </li>
+                                <li class="what-i-can-do-para1">Build dynamic, single-page applications with React.js and manage backend services with Node.js.</li>
+                                <li class="what-i-can-do-para1">Design and maintain efficient databases using SQLite and integrate them with Python-based server-side logic.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="projectSection" class="col-12 projects-background">
+                <div class="m-3">
+                    <h1 class="project-head1">
+                        Projects
+                    </h1>
+                    <p class="projects-para1"> These are the projects i involved with</p>
+                </div>
+                <div class="container">
+                    <div class="card bg-light">
+                        <video autoplay class="project-image" src="apple.mp4" loop controls></video>
+                        <h1 class="project-head"> 
+                            <i class="fa-brands fa-apple" style="color: black; font-size: 28px;"></i>
+                            Apple Clone
+                        </h1>
+                        <div class="d-flex flex-row flex-wrap mt-3">
+                            <p class="para-projects">HTML</p>
+                            <p class="para-projects">CSS</p>
+                        </div>
+                        <a href="https://cloneapple.ccbp.tech/" class="see-more">
+                            View Project
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card bg-light">
+                        <video class="project-image" src="TodoList.mp4" loop autoplay controls></video>
+                        <h1 class="project-head"> 
+                            <i class="fa-solid fa-list-check" style="color: black; font-size: 28px;"></i>
+                            Todo List
+                        </h1>
+                        <div class="d-flex flex-row flex-wrap mt-3">
+                            <p class="para-projects">HTML</p>
+                            <p class="para-projects">CSS</p>
+                            <p class="para-projects">JavaScript</p>
+                        </div>
+                        <a href="https://dailytodotask.ccbp.tech/" class="see-more">
+                            View Project
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card bg-light">
+                        <video class="project-image" src="wiki.mp4" loop autoplay controls></video>
+                        <h1 class="project-head"> 
+                            <i class="fa-brands fa-wikipedia-w" style="color: black; font-size: 28px;"></i>
+                            Wikipedia
+                        </h1>
+                        <div class="d-flex flex-row flex-wrap mt-3">
+                            <p class="para-projects">HTML</p>
+                            <p class="para-projects">CSS</p>
+                            <p class="para-projects">JavaScript</p>
+                        </div>
+                        <a href="https://wikiclone9.ccbp.tech/" class="see-more">
+                            View Project
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card bg-light">
+                        <video class="project-image" src="FoodMunch.mp4" controls autoplay loop></video>
+                        <h1 class="project-head"> 
+                            <i class="fa-solid fa-utensils" style="color: black; font-size: 28px;"></i>
+                            Food Munch
+                        </h1>
+                        <div class="d-flex flex-row flex-wrap mt-3">
+                            <p class="para-projects">HTML</p>
+                            <p class="para-projects">CSS</p>
+                            <p class="para-projects">Bootstrap</p>
+                        </div>
+                        <a href="https://fmrestaurant93.ccbp.tech/" target="_blank" class="see-more">
+                            View Project
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="contactMe" class="col-12 projects-background">
+                <div class="contact-me-head">
+                    <h1 class="about-me-head">Contact Me</h1>
+                </div>
+                <div class="d-md-flex flex-row contact-main-container">
+                    <div class="contact-form-3">
+                        <h1 class="contact-me">Get in Touch</h1>
+                        <div class="d-flex flex-row">
+                            <i class="fa-solid fa-user" style="font-size: 22px; margin-top: 10px;"></i>
+                            <div class="ml-3">
+                                <h1 class="conact-me-name">Name</h1>
+                                <p class="contact-me-para">Allu Yogesh</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <i class="fa-solid fa-envelope" style="font-size: 22px; margin-top: 10px;"></i>
+                            <div class="ml-3">
+                                <h3 class="conact-me-name">Email</h3>
+                                <p class="contact-me-para">yogeshallu939@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <i class="fa-solid fa-location-dot" style="font-size: 22px; margin-top: 10px;"></i>
+                            <div class="ml-3">
+                                <h3 class="conact-me-name">Address</h3>
+                                <p class="contact-me-para">Anantapur, Andhra Pradesh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="contact-me-para">Please fill out the form below to discuss any work opportunities.</p>
+                        <form id="contact-form" action="#" method="post" class="contact-form contact-section">
+                            <div class="form-group">
+                                <label for="name" class="contact-size">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your name">
+                            </div>
+            
+                            <div class="form-group">
+                                <label for="email" class="contact-size">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                            </div>
+            
+                            <div class="form-group">
+                                <label for="message" class="contact-size">Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Your message here"></textarea>
+                            </div>
+            
+                            <button class="submit" type="button" onclick="sendEmail()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <a href="#home-container"><button type="button" fdprocessedid="2jowob">Go to top</button></a>
+                <p class="copyright">Copyright <i class="fa-regular fa-copyright" aria-hidden="true"></i>2024; Designed by Yogesh</p></footer>
+        </div>
+    </div>
+    <script href="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: 'eOtSbjuyS0Ypxb6J2',
+        });
+    })();
+
+    function sendEmail() {
+        // Collect form data
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+
+        // Check if all fields are filled
+        if (!name || !email || !message) {
+        alert("Please fill in all the fields.");
+        return;
+        }
+
+        // Create an object with the form data
+        var templateParams = {
+        user_name: name,
+        user_email: email,
+        message: message,
+        };
+
+        // Send the email
+        emailjs.send('service_5gqijxf', 'template_ymnkqme', templateParams)
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            alert("Email sent successfully!");
+            document.getElementById('contact-form').reset();  // Reset the form after successful submission
+        }, function(error) {
+            console.log('FAILED...', error);
+            alert("Failed to send email.");
+        });
+    }
+    </script>
+
+      
+</body>
+
+</html>
